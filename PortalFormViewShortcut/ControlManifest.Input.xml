@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="PortalFormViewShortcut" constructor="PortalFormViewShortcut" version="1.0.1" display-name-key="Portal Form View Shortcuts" description-key="Shortcuts to edit forms and views in the Portal Management" control-type="standard" preview-image="img/preview.png">
+    <property name="entityName" display-name-key="Entity Name" description-key="Field for the Entity Name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="entityFormViewField" display-name-key="Entity Form/View Field" description-key="Field containing the Form ID or View IDs" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="powerAppsEnvironmentId" display-name-key="PowerApps Environment Id" description-key="PowerApps environment ID. (See Documentation)" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="controlType" of-type="Enum" usage="input" required="true" display-name-key="Type" description-key="Choose if you use the control for an Entity Form or an Entity List.">
+      <value name="EntityForm" display-name-key="Entity Form">0</value>
+      <value name="EntityList" display-name-key="Entity List">1</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1" />
+      <resx path="strings/PortalFormViewShortcut.1033.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
