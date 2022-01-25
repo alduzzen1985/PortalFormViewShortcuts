@@ -1,5 +1,6 @@
 # PortalFormViewShortcuts
-PCF Control to add a shortcut
+Portal Form View Shortcut is a simple PCF Control to add a shortcut to the Form and Views. 
+In the Portal Managment App you only need to change the Basic/Advanced Forms and Lists forms to render the PCF.
 
 
 <h4>Where I can take the PowerApps Environment ID ?</h4>
