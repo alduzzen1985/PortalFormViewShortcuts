@@ -7,6 +7,9 @@ In the Portal Managment App you only need to change the following forms to rende
   <li>List Form</li>
 </ul>
 
+![PortalHelper](https://user-images.githubusercontent.com/32884589/151759570-9148948f-3147-4943-a84e-7f0f71871997.gif)
+
+
 <h4>How to setup the PCF</h4>
 
 To setup the PCF you need to do these actions :
